@@ -1,0 +1,51 @@
+.mainParallax{
+	background-image: url(../img/logo/wallpaper.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.logo-home{
+	display: block;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 60vh;
+}
+
+.logo-about{
+	width: 30%;
+}
+
+#categories{
+	background-color: #333;
+	color: white;
+}
+
+.prd-bst{display: none; height: 310px;}
+
+.prd-active{display: block;}
+
+
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+@media screen and (max-width: 1024px){
+	.prd-bst{height: 100%;}
+}

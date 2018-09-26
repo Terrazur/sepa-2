@@ -1,0 +1,17 @@
+.box{
+	padding: 20px 0;
+	border-radius: 20px;
+	background-color: rgba(200,200,200,0.1);
+}
+
+.footer{
+	bottom: 0;
+}
+
+.wrap{
+	min-height: 71.3vh;
+}
+
+@media screen and (max-width: 1024px){4
+	
+}
